@@ -1,0 +1,51 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = 
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = browser
+build_property.RootNamespace = WorkingWithRadzenStudi.Client
+build_property.RootNamespace = WorkingWithRadzenStudi.Client
+build_property.ProjectDir = C:\dev\working-with-radzen-studio\Client\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\dev\working-with-radzen-studio\Client
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/dev/working-with-radzen-studio/Client/App.razor]
+build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/working-with-radzen-studio/Client/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/working-with-radzen-studio/Client/Pages/TextBoxConfig.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGV4dEJveENvbmZpZy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/working-with-radzen-studio/Client/Pages/TextBoxPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGV4dEJveFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/working-with-radzen-studio/Client/Shared/EventConsole.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXEV2ZW50Q29uc29sZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/working-with-radzen-studio/Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/dev/working-with-radzen-studio/Client/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 

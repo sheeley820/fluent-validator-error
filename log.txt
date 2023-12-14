@@ -1,0 +1,25 @@
+Analyzing WorkingWithRadzenStudi.sln ...
+System.Exception: Error during application startup.
+ ---> System.IO.FileLoadException: Could not load file or assembly 'FluentValidation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0'. An operation is not legal in the current state. (0x80131509)
+File name: 'FluentValidation, Version=11.0.0.0, Culture=neutral, PublicKeyToken=7de548da2fbae0f0'
+ ---> System.InvalidOperationException: Resolved assembly's simple name should be the same as of the requested assembly.
+   at System.Runtime.Loader.AssemblyLoadContext.ValidateAssemblyNameWithSimpleName(Assembly assembly, String requestedSimpleName)
+   at System.Runtime.Loader.AssemblyLoadContext.ResolveUsingEvent(AssemblyName assemblyName)
+   at System.Runtime.Loader.AssemblyLoadContext.ResolveUsingResolvingEvent(IntPtr gchManagedAssemblyLoadContext, AssemblyName assemblyName)
+   at RadzenProgram.Configure(IServiceCollection services, IConfiguration configuration)
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)
+   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)
+   --- End of inner exception stack trace ---
+   at Radzen.Server.ServiceCollectionExtensions.AddRadzenServices(ServiceCollection services, Type startupType, Type programType, IEnumerable`1 appSettings)
+   at Radzen.Server.ProjectServer.Boot(CultureInfo culture)
+   at Radzen.Server.ProjectServer.OnProjectReady()
+   at Radzen.Server.SolutionFacade.<>c__DisplayClass14_1.<<LoadProject>b__2>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Radzen.Server.ProjectContext.Rebuild(Boolean throwOnBuildError)
+   at Radzen.Server.ProjectContext.Rebuild(Boolean throwOnBuildError)
+   at Radzen.Server.LoggerExtensions.MeasureAsync(ILogger logger, String name, Func`1 action)
+   at Radzen.Server.SolutionContext.BuildAllProjects(Boolean throwOnBuildError)
+   at Radzen.Server.SolutionContext.BuildAsync(String fileName, Boolean throwOnBuildError)
+   at Radzen.Server.SolutionFacade.LoadProject(String filePath, Boolean overrideLifeCycle, Boolean throwOnBuildError)
+   at Radzen.Server.ProjectAnalyzer.AnalyzeAsync(String path, IServiceProvider serviceProvider, Boolean parallel, Boolean all)
+Finished with errors.
